@@ -1,0 +1,14 @@
+{
+  "users": [
+    {
+      "userId": "6f2d2ec6-a89a-11ed-afa1-0242ac120002",
+      "userName": "Bob",
+      "hashedPassword": "$2a$14$tSnuH38X0AZ3J2cyS.OYAubMYBeXtCzexI/M1lCYx7rlbNkEq.frC"
+    },
+    {
+      "userId": "0d9c5f78-a89b-11ed-afa1-0242ac120002",
+      "userName": "Alice",
+      "hashedPassword": "$2a$14$j1Nlvh9dNZn5AYHr/gnEKO6ReFecuqF9gBI9bBQ3LC3DzwAl5ogQW"
+    }
+  ]
+}
