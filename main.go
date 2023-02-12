@@ -45,13 +45,14 @@ func main() {
 	v1.POST("/login", loginController.Login)
 
 	v1.Use(middleware.Authenticate())
-
 	{
 		v1.GET("/video", videoController.GetVideo)
 		v1.PUT("/video", videoController.CreateVideo)
 		v1.DELETE("/video", videoController.DeleteVideo)
 		v1.GET("/annotation", annController.GetAnnotationsForVideo)
 		v1.PUT("/annotation", annController.CreateAnnotation)
+		v1.POST("/annotation", annController.UpdateAnnotation)
+		v1.DELETE("/annotation", annController.DeleteAnnotation)
 	}
 
 	router.NoRoute(func(c *gin.Context) {
